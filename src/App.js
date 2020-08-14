@@ -1,26 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header'
+import UI from './UI'
+import signupPage from './signupPage';
+import './App.css'
+import loginPage from './loginPage';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import pokemonPage from './pokemonPage';
+import pokeStats from './pokeStats';
+import notLoggedIn from './notLoggedIn'
+import counters from './counters'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ return(
+
+  <Router>
+   
+    <div>     
+      <Switch>
+      <Route  exact path='/signup' component={signupPage} />
+      <Route  exact path='/' component={Home} />
+      <Route  exact path='/login' component={loginPage} />
+      <Route  exact path='/pokemonPage' component={pokemonPage} />
+      <Route  exact path='/pokeStats' component={pokeStats} />
+      <Route  exact path='/counters' component={counters} />
+      <Route  exact path='/404' component={notLoggedIn} />
+
+
+    </Switch>
+  </div>
+ </Router>
+ 
+ )
+}
+
+
+
+function Home(){
+  return(
+    <div>
+    <Header />
+    <UI />
     </div>
-  );
+  )
 }
 
 export default App;
