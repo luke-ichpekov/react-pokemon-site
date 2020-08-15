@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/deploy-pokeSite.git/static/css/main.170b2107.chunk.css",
+    "main.js": "/deploy-pokeSite.git/static/js/main.e4cc6675.chunk.js",
+    "main.js.map": "/deploy-pokeSite.git/static/js/main.e4cc6675.chunk.js.map",
+    "runtime-main.js": "/deploy-pokeSite.git/static/js/runtime-main.5fb2dc1a.js",
+    "runtime-main.js.map": "/deploy-pokeSite.git/static/js/runtime-main.5fb2dc1a.js.map",
+    "static/js/2.8f537209.chunk.js": "/deploy-pokeSite.git/static/js/2.8f537209.chunk.js",
+    "static/js/2.8f537209.chunk.js.map": "/deploy-pokeSite.git/static/js/2.8f537209.chunk.js.map",
+    "index.html": "/deploy-pokeSite.git/index.html",
+    "precache-manifest.8583f4db33c7c209d6b4c5d39993e552.js": "/deploy-pokeSite.git/precache-manifest.8583f4db33c7c209d6b4c5d39993e552.js",
+    "service-worker.js": "/deploy-pokeSite.git/service-worker.js",
+    "static/css/main.170b2107.chunk.css.map": "/deploy-pokeSite.git/static/css/main.170b2107.chunk.css.map",
+    "static/js/2.8f537209.chunk.js.LICENSE.txt": "/deploy-pokeSite.git/static/js/2.8f537209.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/deploy-pokeSite.git/static/media/mountain.feaae45d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fb2dc1a.js",
+    "static/js/2.8f537209.chunk.js",
+    "static/css/main.170b2107.chunk.css",
+    "static/js/main.e4cc6675.chunk.js"
+  ]
+}
