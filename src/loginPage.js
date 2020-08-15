@@ -36,7 +36,7 @@ async function loginClick() {
   },
   body :  JSON.stringify(loginData)
     }
-   let loginResponse = await fetch('http://localhost:5000/users/login', options)   
+   let loginResponse = await fetch('https://completed-poke-server.herokuapp.com/users/login', options)    //modified
    let finalLoginStatus = await loginResponse.json()
    
 
@@ -53,12 +53,13 @@ async function loginClick() {
       headers: {
       'Content-Type': 'application/json'},
     }
-  fetch('http://localhost:5000/signedInPost', options)   
+    
+  fetch('https://completed-poke-server.herokuapp.com/signedInPost', options)   //modified
     window.location.href = "/pokemonPage"
 }
 
 
-  let userResponse = await fetch('http://localhost:5000/users')
+  let userResponse = await fetch('https://completed-poke-server.herokuapp.com/users') //modified
   let responseData = await userResponse.json()
   console.log(responseData)
 }

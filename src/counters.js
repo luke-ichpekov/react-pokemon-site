@@ -3,7 +3,7 @@ import './App.css'
 import {AiFillCloseCircle} from 'react-icons/ai'
 
  async function loggedIn() {
-    let SignedInRes = await fetch('http://localhost:5000/signedIn')
+    let SignedInRes = await fetch('https://completed-poke-server.herokuapp.com/signedIn') //modified
     let SignedIn = await SignedInRes.json()
 
     if(SignedIn === false){

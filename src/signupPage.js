@@ -38,7 +38,7 @@ async function signupClick() {
 },
 body :  JSON.stringify(signupData)
   }
-  let responseMessage =  await fetch('http://localhost:5000/users', options)   
+  let responseMessage =  await fetch('https://completed-poke-server.herokuapp.com/users', options)   //modified
   let finalStatus = await responseMessage.json()
   
   if(finalStatus.status !== 'Successfully signed up'){
@@ -49,7 +49,7 @@ body :  JSON.stringify(signupData)
   window.location.href = "/login"
   }
 
-  let userResponse = await fetch('http://localhost:5000/users')
+  let userResponse = await fetch('https://completed-poke-server.herokuapp.com/users')  //modified
   let responseData = await userResponse.json()
   console.log(responseData)
 }

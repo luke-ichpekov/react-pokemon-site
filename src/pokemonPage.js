@@ -3,7 +3,7 @@ import './App.css'
 import { Link } from 'react-router-dom'
 
  async function loggedIn() {
-    let SignedInRes = await fetch('http://localhost:5000/signedIn')
+    let SignedInRes = await fetch('https://completed-poke-server.herokuapp.com/signedIn') //modified
     let SignedIn = await SignedInRes.json()
 
     if(SignedIn === false){
@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom'
     }
     console.log(SignedIn)
 
-    let userResponse = await fetch('http://localhost:5000/users')
+    let userResponse = await fetch('https://completed-poke-server.herokuapp.com/users') //modified
     let responseData = await userResponse.json()
     let displayName = document.getElementById('displayUsername')
     displayName.innerHTML = ''
