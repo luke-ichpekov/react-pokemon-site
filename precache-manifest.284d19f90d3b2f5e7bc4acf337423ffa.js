@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45f2dc619e8e12429cbfc45349134fd6",
+    "revision": "e04157547f94c75ad03bd641ee4fd04c",
     "url": "/react-pokemon-site/index.html"
   },
   {
-    "revision": "ffd9b873d472aa0645de",
-    "url": "/react-pokemon-site/static/css/main.1802712a.chunk.css"
+    "revision": "3319bdcc2b9a9c2c0ef9",
+    "url": "/react-pokemon-site/static/css/main.4d12b7d2.chunk.css"
   },
   {
     "revision": "aa26d41cb0e5feeed8e4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-pokemon-site/static/js/2.42d1989d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffd9b873d472aa0645de",
-    "url": "/react-pokemon-site/static/js/main.c524ad37.chunk.js"
+    "revision": "3319bdcc2b9a9c2c0ef9",
+    "url": "/react-pokemon-site/static/js/main.46a7ce94.chunk.js"
   },
   {
     "revision": "aacb09bb567338cc1919",
