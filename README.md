@@ -5,6 +5,9 @@ Link to site is : https://luke-ichpekov.github.io/react-pokemon-site/#/
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
