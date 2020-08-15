@@ -1,3 +1,10 @@
+Pokemon Stat and counter website built in react, using https://pokeapi.co/ as the primary api.
+Backend hosted on Heroku.
+
+Link to site is : https://luke-ichpekov.github.io/react-pokemon-site/#/
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
